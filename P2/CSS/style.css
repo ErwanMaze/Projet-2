@@ -1,0 +1,23 @@
+*
+{
+  font-family: 'Raleway';
+  font-size: 1em;
+}
+
+footer
+{
+    display: flex;
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+#about
+{
+    margin-left: 25px;
+    margin-right: 200px;
+}
+
+#housing
+{
+    margin-right: 200px;
+}
