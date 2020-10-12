@@ -9,6 +9,40 @@
 </head>
 <body>
 
+    <header>
+        <nav class="navigation">
+                <div class="housing">Hébergement</div>
+                <div class="activities">Activités</div>
+                <div class="sign">S'inscrire</div>
+        </nav>
+
+        <div id="titre_principal">
+            <div id="logo">
+                <img src="css/images/reservia.svg" alt="logo">
+            </div>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <h2>En plein centre ville ou en pleine nature</h2>
+        </div>
+
+        <div id="recherche">
+            <form method="post" action="traitement.php">
+                <p>
+                    <label for="search"><i class="fas fa-map-marker-alt"></i></label>  
+                    <input type="text" name="search" id="search" placeholder="Marseille, France" size="30" maxlength="15"/>
+                </p>
+            </form>
+        </div>
+
+        <nav class="theme">
+                <div class="themeFilter">Filtres</div>
+                <div class="themeMoney"><a href="#"></a><i class="fas fa-money-bill-wave"></i> Economique</div>
+                <div class="themeChild"><a href="#"></a><i class="fas fa-child"></i> Familial</div>
+                <div class="themeHeart"><a href="#"></a><i class="fas fa-heart"></i> Romantique</div>
+                <div class ="themeDog"><a href="#"></a><i class="fas fa-dog"></i> Animaux autorisés</div>
+        </nav>
+        <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+    </header>
+
     <footer>
         <div id="about">
             <h3>A propos</h3>

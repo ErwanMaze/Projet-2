@@ -4,6 +4,43 @@
   font-size: 1em;
 }
 
+h1
+{
+  font-size: 1.25em;
+}
+
+h2
+{
+  font-size: 1em;
+}
+
+i
+{
+  color: blue;
+}
+
+.navigation
+{
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px 50px 0px 0px;
+}
+
+.activities
+{
+  margin: 0px 100px 0px 100PX;
+}
+
+.theme
+{
+  display: flex;
+}
+
+.themeFilter,.themeMoney,.themeChild,.themeHeart
+{
+  margin-right: 30px;
+}
+
 footer
 {
     display: flex;
