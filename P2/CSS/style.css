@@ -13,17 +13,7 @@ h2
   font-size: 1em;
 }
 
-.navigation
-{
-  display: flex;
-  justify-content: flex-end;
-  margin: 40px 50px 0px 0px;
-}
-
-.activities
-{
-  margin: 0px 100px 0px 100PX;
-}
+/* Filtres */
 
 .theme
 {
@@ -44,6 +34,11 @@ h2
   border-radius: 30px;
 }
 
+.themeMoney:hover,.themeChild:hover,.themeHeart:hover,.themeDog:hover
+{
+  background-color: #deebff;
+}
+
 .fa-money-bill-wave,.fa-child,.fa-heart,.fa-dog
 {
   background-color: #deebff;
@@ -56,6 +51,8 @@ h2
 {
   color: #0065fc;
 }
+
+/* Barre de recherche */
 
 .search {
   width: 100%;
@@ -114,6 +111,62 @@ h2
   padding-right: 20px;
   border-radius: 30% 0 0 30%;
 }
+
+/* Barre de navigation */
+
+#menu-nav 
+{
+  display: flex;
+  justify-content: flex-end;
+}
+ 
+#navigation-bar ul 
+{
+  display: flex;
+}
+
+#navigation-bar li 
+{
+  padding: 30px;
+}
+
+#navigation-bar a 
+{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  position: relative;
+
+}
+
+#navigation-bar a:hover 
+{
+  color: #0065fc;
+}
+
+#navigation-bar a::before 
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 2px;
+  background-color: #0065fc;
+}
+
+#navigation-bar a:hover::before 
+{
+  right: 0;
+  left: 0;
+}
+ 
+li 
+{
+	list-style: none;
+}
+
+/* Footer */
 
 footer
 {
