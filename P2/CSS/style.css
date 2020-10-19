@@ -3,20 +3,21 @@
   font-family: "Raleway";
 }
 
-#logo
-{
-  width: 100%;
-  height: 100%;
-}
-
 h1
 {
   font-size: 1.25em;
+  font-weight: 900;
 }
 
 h2
 {
   font-size: 1em;
+}
+
+.reservia
+{
+  width: 100px;
+  height: 50px;
 }
 
 /* Filtres */
@@ -30,6 +31,7 @@ h2
 {
   margin-right: 30px;
   padding: 10px;
+  font-weight: 900;
 }
 
 .themeMoney,.themeChild,.themeHeart,.themeDog
@@ -38,6 +40,7 @@ h2
   border: solid 2px #d9d9d9;
   padding-right: 10px;
   border-radius: 30px;
+  font-weight: 900;
 }
 
 .themeMoney:hover,.themeChild:hover,.themeHeart:hover,.themeDog:hover
@@ -51,11 +54,16 @@ h2
   padding: 10px;
   border-radius: 50%;
   color: #0065fc;
+  width: 1em;
+  text-align: center;
 }
 
-.fa-info
+.fa-info,.fa-star
 {
   color: #0065fc;
+  width: 1em;
+  height: 1em;
+  margin-top: 5px;
 }
 
 /* Barre de recherche */
@@ -76,7 +84,7 @@ h2
 }
 
 .searchTerm:focus{
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .searchButton {
@@ -104,13 +112,15 @@ h2
 {
   border: 1px solid #d9d9d9;
   border-radius: 50%;
-  padding: 1em;
-  margin: 1em;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
 }
 
 .fa-map-marker-alt
 {
-  font-size: 25px;
+  font-size: 20px;
+  text-align: center;
   background-color: #f2f2f2;
   padding: 10px;
   padding-left: 20px;
@@ -124,6 +134,7 @@ h2
 {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: -85px;
 }
  
 #navigation-bar ul 
@@ -156,7 +167,7 @@ h2
 {
   content: "";
   position: absolute;
-  top: 0;
+  top: -54px;
   height: 2px;
   background-color: #0065fc;
 }
@@ -166,6 +177,12 @@ h2
   right: 0;
   left: 0;
 }
+
+.inscription
+{
+  color: #0065fc;
+  font-weight: 900;
+}
  
 li 
 {
@@ -173,11 +190,6 @@ li
 }
 
 /* Section */
-
-*
-{
-  font-family: "Raleway";
-}
 
 section
 {
@@ -190,18 +202,21 @@ section
   border-radius: 30px;
 }
 
-figure {
+figure 
+{
     border-radius: 30px;
     background-color: white;
     border-width: 1px white solid;
     display: flex;
     padding: 7px;
     max-width: 220px;
+    max-height: 220px;
     margin: 25px;
     box-shadow: 2px 2px 10px #e5e5e5;
 }
 
-img {
+img 
+{
     border-radius: 20px 20px 0 0;
     width: 220px;
     height: 150px;
@@ -221,6 +236,7 @@ a:link
 .housingMarseille,.more
 {
   margin-left: 25px;
+  font-weight: 900;
 }
 
 .housingMarseille
