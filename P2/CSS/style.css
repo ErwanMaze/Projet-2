@@ -194,6 +194,11 @@ li
 section
 {
   display: flex;
+}
+
+#hebergements
+{
+  display: flex;
   width: 900px;
   flex-wrap: wrap;
   background-color: #F2F2F2;
@@ -202,29 +207,40 @@ section
   border-radius: 30px;
 }
 
+#populaire
+{
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  background-color: #F2F2F2;
+  padding: 25px;
+  margin: 25px;
+  border-radius: 30px;
+}
+
 figure 
 {
-    border-radius: 30px;
-    background-color: white;
-    border-width: 1px white solid;
-    display: flex;
-    padding: 7px;
-    max-width: 220px;
-    max-height: 220px;
-    margin: 25px;
-    box-shadow: 2px 2px 10px #e5e5e5;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px white solid;
+  display: flex;
+  padding: 7px;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 10px #e5e5e5;
 }
 
 img 
 {
     border-radius: 20px 20px 0 0;
-    width: 220px;
-    height: 150px;
+    width: 200px;
+    height: 110px;
 }
 
 figcaption 
 {
-    padding: 3px 30px 30px 15px;
+    padding: 3px 3px 30px 15px;
 }
 
 a:link 
@@ -244,7 +260,39 @@ a:link
   width: 900px;
   margin-top: 3px;
   margin-bottom: 3px;
-  font-size: 1.25em;
+  font-size: 20px;
+}
+
+.more
+{
+  width: 900px;
+  font-size: 15px;
+}
+
+.mostPopular
+{
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.fa-chart-line
+{
+  margin-left: 90px;
+}
+
+.row
+{
+  flex-flow: row;
+  max-width: 300px;
+  max-height: 190px;
+  margin-bottom: 30px;
+}
+
+.imgRow
+{
+  border-radius: 20px 0 0 20px;
+  width: 130px;
+  height: 140px;
 }
 
 /* Footer */
