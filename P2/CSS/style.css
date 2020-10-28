@@ -70,6 +70,8 @@ h2
   color: #0065fc;
   width: 1em;
   text-align: center;
+  position: relative;
+  right: 3px;
 }
 
 .fa-info,.fa-star
@@ -255,20 +257,26 @@ figure
 {
   border-radius: 30px;
   background-color: white;
-  border: 1px white solid;
   display: flex;
+  flex-direction: column;
   padding: 7px;
   width: 250px;
   max-height: 200px;
   margin: 0 10px 0 10px;
   box-shadow: 2px 2px 10px #e5e5e5;
 }
-
-img 
+#hebergements img 
 {
     border-radius: 20px 20px 0 0;
     width: 250px;
     height: 110px;
+}
+
+#populaire img
+{
+  border-radius: 20px 20px 0 0;
+  width: 250px;
+  height: 110px;
 }
 
 figcaption 
@@ -328,6 +336,81 @@ a:link
   border-radius: 20px 0 0 20px;
   width: 130px;
   height: 140px;
+}
+
+/* Activités */
+
+#activities
+{
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.port,.calanques
+{
+  height: 425px;
+}
+
+.blocTwo
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.pomegues
+{
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.frioul 
+{
+  height: 200px;
+}
+
+.frioulImg
+{
+  height: auto;
+}
+
+.blocFour
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.notreDame
+{
+  margin-bottom: 30px;
+}
+
+.notreDameimg
+{
+  height: auto;
+}
+
+.longchampImg
+{
+  height: 200px;
+}
+
+#activities figure 
+{
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  width: 250px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 10px #e5e5e5;
+}
+
+#activities img 
+{
+    border-radius: 20px 20px 0 0;
+
 }
 
 /* Footer */
