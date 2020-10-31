@@ -11,6 +11,21 @@
   }
 }
 
+p
+{
+  margin: 7px;
+}
+
+.paragrapheBold,.euro
+{
+  font-weight: 900;
+}
+
+#populaire p
+{
+  margin-bottom: 10px;
+}
+
 #title
 {
   margin-left: 25px;
@@ -74,12 +89,18 @@ h2
   right: 3px;
 }
 
+#populaire .fa-star
+{
+  margin-top: 35px;
+}
+
 .fa-info,.fa-star
 {
   color: #0065fc;
   width: 1em;
   height: 1em;
-  margin-top: 5px;
+  margin-top: 2px;
+  margin-left: 3px;
 }
 
 .info 
@@ -104,10 +125,6 @@ h2
   padding: 5px;
   height: 33px;
   outline: none;
-}
-
-.searchTerm:focus
-{
   font-weight: 900;
 }
 
@@ -115,7 +132,7 @@ h2
 {
   width: 200px;
   height: 45px;
-  border: 1px solid #0065fc;
+  border: 1px solid;
   background: #0065fc;
   text-align: center;
   color: #fff;
@@ -129,8 +146,6 @@ h2
   display: flex;
   margin: 30px;
   width: 30%;
-  top: 50%;
-  left: 50%;
 }
 
 .fa-info
@@ -265,14 +280,8 @@ figure
   margin: 0 10px 0 10px;
   box-shadow: 2px 2px 10px #e5e5e5;
 }
-#hebergements img 
-{
-    border-radius: 20px 20px 0 0;
-    width: 250px;
-    height: 110px;
-}
 
-#populaire img
+#hebergements img 
 {
   border-radius: 20px 20px 0 0;
   width: 250px;
@@ -281,13 +290,13 @@ figure
 
 figcaption 
 {
-    padding: 3px 3px 15px 15px;
+  padding: 3px 3px 15px 15px;
 }
 
 a:link 
 { 
- text-decoration: none;
- color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .housingMarseille,.more
@@ -326,8 +335,8 @@ a:link
 .row
 {
   flex-flow: row;
-  width: 350px;
-  max-height: 190px;
+  width: 330px;
+  height: 140px;
   margin-bottom: 30px;
 }
 
@@ -338,80 +347,7 @@ a:link
   height: 140px;
 }
 
-/* Activités */
 
-#activities
-{
-  display: flex;
-  flex-direction: row;
-  padding: 25px;
-}
-
-.port,.calanques
-{
-  height: 425px;
-}
-
-.blocTwo
-{
-  display: flex;
-  flex-direction: column;
-}
-
-.pomegues
-{
-  height: 200px;
-  margin-bottom: 30px;
-}
-
-.frioul 
-{
-  height: 200px;
-}
-
-.frioulImg
-{
-  height: auto;
-}
-
-.blocFour
-{
-  display: flex;
-  flex-direction: column;
-}
-
-.notreDame
-{
-  margin-bottom: 30px;
-}
-
-.notreDameimg
-{
-  height: auto;
-}
-
-.longchampImg
-{
-  height: 200px;
-}
-
-#activities figure 
-{
-  border-radius: 30px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  padding: 7px;
-  width: 250px;
-  margin: 0 10px 0 10px;
-  box-shadow: 2px 2px 10px #e5e5e5;
-}
-
-#activities img 
-{
-    border-radius: 20px 20px 0 0;
-
-}
 
 /* Footer */
 
