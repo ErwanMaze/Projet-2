@@ -9,6 +9,46 @@
   {
     width: auto;
   }
+
+  #navigation-bar ul
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .theme
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section 
+  {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #hebergements
+  {
+    width: 414px;
+  }
+
+  .container
+  {
+    flex-direction: column;
+  }
+
+  #activities
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer
+  {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 p
@@ -245,7 +285,6 @@ section
 #hebergements
 {
   display: flex;
-  width: 900px;
   flex-wrap: wrap;
   background-color: #F2F2F2;
   padding: 25px;
@@ -257,7 +296,6 @@ section
 .container
 {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   width: auto;
   justify-content: space-evenly;
