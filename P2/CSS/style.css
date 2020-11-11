@@ -3,11 +3,16 @@
   font-family: "Raleway";
 }
 
-@media all and (max-width: 1024px)
+@media screen and (max-width: 480px)
 {
   main
   {
     width: auto;
+  }
+
+  .themeFilter
+  {
+    width: 480px;
   }
 
   #navigation-bar ul
@@ -22,6 +27,11 @@
     flex-wrap: wrap;
   }
 
+  .themeMoney,.themeChild,.themeHeart,.themeDog
+  {
+    margin-bottom: 10px;
+  }
+
   section 
   {
     display: flex;
@@ -30,7 +40,7 @@
 
   #hebergements
   {
-    width: 414px;
+    width: auto;
   }
 
   .container
@@ -49,6 +59,17 @@
     display: flex;
     flex-direction: column;
   }
+}
+
+a:link 
+{ 
+  text-decoration: none;
+  color: black;
+}
+
+a:visited 
+{
+  color: black;
 }
 
 p
@@ -387,12 +408,6 @@ figcaption
   padding: 3px 3px 15px 15px;
 }
 
-a:link 
-{ 
-  text-decoration: none;
-  color: black;
-}
-
 .housingMarseille,.more
 {
   margin-left: 25px;
@@ -428,7 +443,7 @@ a:link
 
 .fa-chart-line
 {
-  margin-left: 145px;
+  margin-left: 125px;
 }
 
 .figurePop
