@@ -3,64 +3,6 @@
   font-family: "Raleway";
 }
 
-@media screen and (max-width: 480px)
-{
-  main
-  {
-    width: auto;
-  }
-
-  .themeFilter
-  {
-    width: 480px;
-  }
-
-  #navigation-bar ul
-  {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .theme
-  {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .themeMoney,.themeChild,.themeHeart,.themeDog
-  {
-    margin-bottom: 10px;
-  }
-
-  section 
-  {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  #hebergements
-  {
-    width: auto;
-  }
-
-  .container
-  {
-    flex-direction: column;
-  }
-
-  #activities
-  {
-    display: flex;
-    flex-direction: column;
-  }
-
-  footer
-  {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 a:link 
 { 
   text-decoration: none;
@@ -206,6 +148,11 @@ h2
   border-radius: 0 10px 10px 0;
   cursor: pointer;
   font-size: 20px;
+}
+
+.searchButtonResponsive
+{
+  display: none;
 }
 
 .wrap
@@ -479,4 +426,135 @@ footer
 #housing
 {
     margin-right: 200px;
+}
+
+@media screen and (max-width: 480px)
+{
+  main
+  {
+    width: auto;
+  }
+
+  h3 
+  {
+    padding: 5px;
+    width: 100%;
+  }
+
+  #menu-nav
+  {
+    margin-top: 50px;
+    width: auto;
+  }
+
+  #navigation-bar a::before 
+  {
+    content: "";
+    position: absolute;
+    top: 54px;
+    height: 2px;
+    background-color: #0065fc;
+  }
+
+  #navigation-bar a:hover::before 
+  {
+    right: 0;
+    left: 0;
+  }
+
+  .inscription
+  {
+    position: absolute;
+    bottom: 500%;
+    left: 600%;
+  }
+
+  .reservia
+  {
+    position: absolute;
+    top: 2%;
+  }
+
+  .themeFilter
+  {
+    width: 480px;
+  }
+
+  #navigation-bar ul
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .theme
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .themeMoney,.themeChild,.themeHeart,.themeDog
+  {
+    margin-bottom: 10px;
+  }
+
+  section 
+  {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #hebergements
+  {
+    width: auto;
+    background-color: white;
+  }
+
+  .container
+  {
+    flex-direction: column;
+  }
+
+  #populaire
+  {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 30px;
+  }
+
+  .mostPopular
+  {
+    width: 400px;
+  }
+
+  #activities
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .figureAct img
+  {
+    width: 350px;
+    height: 150px;
+  }
+
+  .captionAct
+  {
+    width: 333px;
+  }
+
+  footer
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about
+  {
+    margin: 0px;
+  }
 }
